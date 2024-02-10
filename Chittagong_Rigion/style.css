@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.profile-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 20px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-picture {
+  border-radius: 20%;
+  /* overflow: hidden; */
+  width: 280px;
+  height: 250px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-picture img {
+  width: 120%;
+  height: 110%;
+  object-fit: cover;
+  border: 2px solid rgb(26, 24, 24);
+}
+
+.profile-info {
+  width: 900px;
+  height: 120px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.profile-info h2 {
+  margin-bottom: 2px;
+}
+
+.profile-info p {
+  color: #777;
+}
+
+.segment {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgb(173, 200, 205);
+  padding: 3px;
+  margin: 3px;
+}
+
+.contact-info {
+  /* border: 1px solid lightblue;
+  border-radius: 20px;
+  background-color: lightgreen;
+  margin-top: 10px;
+  font-size: 22px;
+  /* text-align: left; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-info p {
+  padding: 2px;
+}
+.search-container {
+  text-align: center;
+}
+
+.search-bar {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+  box-sizing: border-box;
+}
+
+.search-button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.reFresh {
+  background-color: #4caf50;
+  margin: 0 20px;
+}
+.peraName {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: aliceblue;
+}
